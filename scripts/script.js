@@ -116,11 +116,3 @@ document.addEventListener('mousemove', (e) => {
 
 // Após os eventos de soltura
 document.addEventListener('mouseup', handleBlockDrop);
-document.addEventListener('touchend', handleBlockDrop); 
-
-// --- Evento de 'touchend' (quando o toque termina) ---
-document.addEventListener('touchend', () => {
-    if (currentDraggingBlock) {
-        currentDraggingBlock = null;
-    }
-});
