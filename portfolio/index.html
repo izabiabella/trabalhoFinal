@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Trabalho final de Programação I</title>
+</head>
+
+<body style="background-color: rgb(210, 144, 155);">
+
+    <article class="col-sm-12 col-md-8 offset-md-2 col-lg-6  offset-lg-3 p-3 rounded-5 mt-3 shadow"
+        style="background-color:rgb(221, 158, 169);">
+        <div id="img" class="d-flex justify-content-center">
+
+            <img class="img-thumbnail mt-5" style="height: 130pt; width: 100pt; " src="../ImagemCurriculo.jpg">
+
+        </div>
+
+        <div class="text-center" style="color: rgb(241, 215, 182); font: normal 10pt Poppins;" id="txt">
+            <h3 class="mt-3">Beatriz Hübner Razera</h3>
+            <p>Estudante de Análise e Desenvolvimento de Sistemas no Instituto <br> Federal de Rôndonia, campus
+                Ariquemes.<br>
+            </p>
+            <a href="../scripts/aplicacao.html" class="btn" style="background-color: rgb(13, 13, 13); color:rgb(210, 144, 155); border-radius: 0%;" role="button" >Aplicação educativa</a>
+        </div>
+    </article>
+
+    <article class="col-sm-12 col-md-8 offset-md-2 col-lg-6  offset-lg-3 p-5 rounded-5 mt-3 shadow"
+        style="background-color:rgb(221, 158, 169);">
+        <div id="form">
+            <form>
+                <h2 class="text-center" style="color: rgb(241, 215, 182); font: normal Poppins;">Formulário para contato
+                </h2>
+                <br>
+                <div class="form-floating">
+                    <input style="background-color: rgb(198, 125, 137); border-color: rgb(122, 80, 87);" type="text" class="form-control" id="nome" placeholder="Nome Completo" required>
+                    <label style="color: black;" for="nome">Nome Completo</label>
+                    <br>
+                </div>
+
+                <div class="form-floating">
+                    <input style="background-color: rgb(198, 125, 137); border-color: rgb(122, 80, 87);" type="text" class="form-control" id="email" placeholder="E-mail" required>
+                    <label style="color: black;" for="email">E-mail</label>
+                    <br>
+                </div>
+
+
+                <div class="row">
+                    <div class="form-floating col-lg">
+                        <input style="background-color: rgb(198, 125, 137); border-color: rgb(122, 80, 87);" type="date" class="form-control" id="nascimento">
+                        <label style="color: black;" class="ms-2" for="nascimento">Data de Nascimento</label>
+                        <br>
+                    </div>
+
+                    <div class="form-floating col-lg">
+                        <input style="background-color: rgb(198, 125, 137); border-color: rgb(122, 80, 87);" type="text" class="form-control" id="num" placeholder="Número" required>
+                        <label class="ms-3" style="color: black;" for="num">Número para contato</label>
+                        <span id="padrao" class="Form-text text-secondary-emphasis">Modelo: (99) 9 9999-9999</span>
+                        <br>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg">
+                        <legend style="font: normal Poppins;">Sexo:</legend>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" id="masc" name="sexo">
+                            <label for="masc" class="form-check-label">Masculino</label>
+                        </div>
+
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" id="fem" name="sexo">
+                            <label for="fem" class="form-check-label">Feminino</label>
+                        </div>
+                    </div>
+                    
+
+                    <div class="col-lg">
+                        <legend style="font-size: 15pt;">Selecione as áreas de seu interesse:</legend>
+
+                        <div class="row">
+                            <div class="col-lg">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="uxui">
+                                    <label class="form-check-label" for="uxui">UX/UI</label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="back">
+                                    <label class="form-check-label" for="back">Backend</label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="front">
+                                    <label class="form-check-label" for="front">Frontend</label>
+                                </div>
+                            </div>
+                            <div class="col-lg">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="bdd">
+                                    <label class="form-check-label" for="bdd">Banco de Dados</label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="git">
+                                    <label class="form-check-label" for="git">Git</label>
+                                </div>
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="ia">
+                                    <label class="form-check-label" for="ia">IA</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-3 mt-4 col-lg-10 offset-lg-1">
+                    <label for="msg" class="form-label">Comentários ou Perguntas?</label>
+                    <textarea style="background-color: rgb(198, 125, 137); border-color: rgb(122, 80, 87);" class="form-control" id="msg" rows="3" placeholder="Digite aqui..."></textarea>
+                  </div>
+                    
+                  <div class="d-grid gap-2 col-lg-8 mx-auto">
+                    <button class="btn" style="background-color: rgb(13, 13, 13); color:rgb(210, 144, 155); border-radius: 0%;" type="submit">Enviar</button>
+                    <button class="btn" style="background-color: rgb(13, 13, 13); color:rgb(210, 144, 155); border-radius: 0%;" type="reset">Limpar</button>
+                  </div>
+
+            </form>
+        </div>
+    </article>
+</body>
+
+</html>

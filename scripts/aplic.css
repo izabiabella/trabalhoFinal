@@ -1,0 +1,24 @@
+.respostas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.resposta {
+    height: 60px;
+    width: 125px;
+    margin: 10px 10px 10px 20px;
+
+}
+
+
+.drop-target.correct-drop {
+    background-color: #6ac27e; /* Um verde claro */
+    border-color: #28a745;
+}
+
+.drop-target.incorrect-drop {
+    background-color: #e97d86; /* Um vermelho claro */
+    border-color: #dc3545;
+}
